@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "classy",
+  "name": "@1amageek/classy",
   "version": "0.1.0",
   "scripts": {
     "lint": "./node_modules/.bin/tslint -p tslint.json",
