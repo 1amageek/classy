@@ -1,0 +1,57 @@
+{
+  "private": false,
+  "name": "classy",
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "./node_modules/.bin/tslint -p tslint.json",
+    "build": "./node_modules/.bin/tsc -d"
+  },
+  "description": "classy is ..",
+  "contributors": [
+    {
+      "name": "Norikazu Muramoto",
+      "email": "tmy0x3@icloud.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1amageek/classy.git"
+  },
+  "keywords": [
+    "typescript",
+    "getter",
+    "setter"
+  ],
+  "author": "1amageek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1amageek/classy/issues"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "reflect-metadata": "^0.1.12"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.0",
+    "@types/node": "^9.4.6",
+    "jest": "^22.4.2",
+    "ts-jest": "^22.4.1",
+    "tslint": "^5.8.0",
+    "typescript": "^2.5.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
