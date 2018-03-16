@@ -19,10 +19,10 @@ export class Document {
     // willSet / didSet
     @property({
         willSet: (newValue) => {
-            testValues["willSet"] = true
+            console.log(newValue)
         },
         didSet: (oldValue) => {
-            testValues["didSet"] = true
+            console.log(oldValue)
         } 
     }) public test0: string
 
